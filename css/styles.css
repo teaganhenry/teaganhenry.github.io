@@ -1,10 +1,25 @@
 body {
     font-size: 1.5rem;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background: url(../images/website_front.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    margin: 0;
+}
+
+div.container {
+    
+}
+
+div.site_title, div.sub_title {
+    font: courier;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ff0000;
+    padding: 16px;
+    text-align: center;
+}
+
+div.site_title {
+    font-size: 48px;
+}
+
+div.sub_title {
+    font-size: 32px;
 }
